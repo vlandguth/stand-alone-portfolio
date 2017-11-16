@@ -18,4 +18,5 @@ $('figure').lightGallery({
     selector: 'a', 
     thumbnail: true,
     share:false,
+    mode: 'lg-slide-vertical-growth',
 });
