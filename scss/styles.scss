@@ -3,15 +3,14 @@
 @import "lg-transitions";
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-// Thumbnails
-figure{
-    margin:0;
+.portfolio{
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/dust_scratches.png);
 }
-
 h1, figcaption, p, .lg-sub-html, #lg-counter-current, #lg-counter-all{
     font-family: 'Lato', sans-serif;
 }
 
+// Light Gallery Styling
 .lg-backdrop{
   background: rgba(16, 0, 28, 0.8);
 }
@@ -24,8 +23,22 @@ h1, figcaption, p, .lg-sub-html, #lg-counter-current, #lg-counter-all{
     background: rebeccapurple;
 }
 
+//Layout
 figure{
     margin:0 auto;
-    width:70%;
+    width:80%;
     display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+figure img{
+    margin:3px;
+}
+
+footer{
+    position: relative;
+    bottom:0;
+    width:100%;
+    background-color:lightgray;
 }
