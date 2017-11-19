@@ -1,17 +1,12 @@
 @import "normalize";
 @import "lightgallery";
 @import "lg-transitions";
+@import "uikit.min";
 @import "uikit-rtl.min";
-@import "uikit.min"    
-//@import url('https://fonts.googleapis.com/css?family=Lato');
-
 
 .portfolio{
     background: url(https://www.toptal.com/designers/subtlepatterns/patterns/dust_scratches.png);
 }
-//h1, figcaption, p, .lg-sub-html, #lg-counter-current, #lg-counter-all{
-//    font-family: 'Lato', sans-serif;
-//}
 
 // Light Gallery Styling
 .lg-backdrop{
@@ -26,13 +21,16 @@
     background: rebeccapurple;
 }
 
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover{
+    border-color:rebeccapurple;
+}
 //Layout
-////figure{
-//    margin:0 auto;
-//    width:80%;
-//    display:flex;
-//    justify-content: center;
-//    flex-wrap:wrap;
+figure{
+    margin:0 auto;
+    width:80%;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
 }
 
 figure img{

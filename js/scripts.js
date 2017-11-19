@@ -6,9 +6,9 @@ var numRand = Math.floor( Math.random() * maxRand );
 //console.log(numRand);
 
 // Store images
-var img0 = 'https://picsum.photos/201/301';
-var img1 = 'https://picsum.photos/202/302';
-var img2 = 'https://picsum.photos/200/300';
+var img0 = 'http://picsum.photos/201/300';
+var img1 = 'http://picsum.photos/200/303';
+var img2 = 'http://picsum.photos/200/302';
 
 // Show Images
 $('header img').attr('src', eval('img' + numRand) );
@@ -17,6 +17,5 @@ $('header img').attr('src', eval('img' + numRand) );
 $('figure').lightGallery({
     selector: 'a', 
     thumbnail: true,
-    share:false,
-    mode: 'lg-slide-vertical-growth',
+    share:false
 });
