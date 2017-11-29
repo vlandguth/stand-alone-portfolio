@@ -3,9 +3,14 @@
 @import "lg-transitions";
 @import "uikit.min";
 @import "uikit-rtl.min";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .portfolio{
     background: url(https://www.toptal.com/designers/subtlepatterns/patterns/dust_scratches.png);
+}
+
+h1, p, .lg-sub-html, #lg-counter-all{
+  font-family: 'Montserrat', sans-serif;  
 }
 
 // Light Gallery Styling
