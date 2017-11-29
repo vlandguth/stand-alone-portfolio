@@ -5,13 +5,56 @@
 @import "uikit-rtl.min";
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-.portfolio{
-    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/dust_scratches.png);
-}
 
 h1, p, .lg-sub-html, #lg-counter-all{
   font-family: 'Montserrat', sans-serif;  
 }
+
+main{
+    width:80%;
+    margin:0 auto;
+}
+
+// Header
+header{
+    width:100%;
+    height:250px;
+    background:#83AFC8;
+}
+ 
+h1{
+    text-align: center;
+    padding-top: 80px;
+}
+
+//Footer
+h4{
+    padding-top:5px;
+    text-align: center; 
+}
+
+footer{
+    position:relative;
+    width:100%;
+    bottom:0;
+    background-color:rgba(33,96,132,.5);
+}
+
+.contact{
+    display:flex;
+    margin:0 auto;
+    max-width:95%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content:baseline;
+    font-size:12px;
+}
+
+.contact li{
+    padding:10px;
+    list-style-type: none; 
+}
+
 
 // Light Gallery Styling
 .lg-backdrop{
@@ -29,6 +72,7 @@ h1, p, .lg-sub-html, #lg-counter-all{
 .lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover{
     border-color:rebeccapurple;
 }
+
 //Layout
 figure{
     margin:0 auto;
@@ -42,9 +86,10 @@ figure img{
     margin:3px;
 }
 
-footer{
-    position: relative;
-    bottom:0;
-    width:100%;
-    background-color:lightgray;
+// Media Queries
+
+@media(max-width:780px){
+  .contact{
+    flex-direction:column;
+  }
 }
