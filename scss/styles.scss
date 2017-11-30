@@ -29,6 +29,7 @@ header{
 }
  
 h1{
+    font-size: 48px;
     text-transform: uppercase;
     text-align: center;
     padding-top: 80px;
@@ -36,6 +37,25 @@ h1{
 
 h2{
     margin-left:50px;
+}
+
+#pointer {
+    position: absolute;
+    bottom: 472px;
+    right: 50px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 38px solid #83AFC8;
+}
+
+.me {
+  margin: 0 auto;
+  top: -35px;
+  background-color: whitesmoke;
+  height: 2px;
+  width: 100px;
 }
 
 //Footer - Contact Info
