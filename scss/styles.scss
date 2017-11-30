@@ -4,16 +4,21 @@
 @import "uikit.min";
 @import "uikit-rtl.min";
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 
-h1, p, .lg-sub-html, #lg-counter-all{
-  font-family: 'Montserrat', sans-serif;  
+p, .lg-sub-html, #lg-counter-all{
+  font-family: 'Montserrat', sans-serif; 
 }
 
-.portfolio{
-    background: red;
-//    background:url("https://www.toptal.com/designers/subtlepatterns/patterns/spiration-light.png");
+h1, h2{
+    font-family: 'Playfair Display', serif;
 }
+
+body{
+    background:url("https://www.toptal.com/designers/subtlepatterns/patterns/spiration-light.png");
+}
+
 
 // Header
 header{
@@ -24,12 +29,18 @@ header{
 }
  
 h1{
+    text-transform: uppercase;
     text-align: center;
     padding-top: 80px;
 }
 
+h2{
+    margin-left:50px;
+}
+
 //Footer - Contact Info
 footer{
+    margin-top:100px;
     position:relative;
     width:100%;
     bottom:0;
