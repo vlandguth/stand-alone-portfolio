@@ -21,3 +21,11 @@ $('figure').lightGallery({
     mode: 'lg-scale-up',
     download: false,
 });
+
+// Random Number
+var max = 4;
+var numRand = Math.floor( Math.random() * max );
+console.log(numRand);
+
+// Change Fonts
+$('h1').addClass('font' + numRand);
