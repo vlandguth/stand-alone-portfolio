@@ -21,11 +21,11 @@ h3, .font1{
 }
 
 .font0{
-   font-family: 'Poiret One', cursive;
+   font-family: 'Poiret One';
 }
 
 .font2{
-    font-family: 'Handlee', cursive;
+    font-family: 'Handlee';
 }
 
 body{
@@ -75,7 +75,7 @@ h2{
 
 #pointer {
     position: absolute;
-    bottom: 472px;
+    bottom: 395px;
     right: 50px;
     width: 0;
     height: 0;
@@ -190,4 +190,10 @@ main{
   .contact{
     flex-direction:column;
   }
+}
+
+@media(max-width:460px){
+    .uk-navbar-left{
+        display:none;
+    }
 }
